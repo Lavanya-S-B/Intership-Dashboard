@@ -36,12 +36,12 @@ Frontend	HTML, CSS, JavaScript, Particles.js
 Backend	Firebase Realtime Database (static mock)
 Hosting	GitHub Pages
 📸 Screenshots
-
+🔹Welcome page
+https://github.com/Lavanya-S-B/Intership-Dashboard/blob/main/welcome%20page.png.png
 🔹 Dashboard Page
-![Dashboard Screenshot](https://raw.githubusercontent.com/yourusername/intern-dashboard/main/assets/dashboard.png)
+https://github.com/Lavanya-S-B/Intership-Dashboard/blob/main/dashboard%20pageg.png.png
  🔹 Leaderboard Page
-![Leaderboard Screenshot](https://raw.githubusercontent.com/yourusername/intern-dashboard/main/assets/leaderboard.png)
-
+https://github.com/Lavanya-S-B/Intership-Dashboard/blob/main/Leaderboard%20page.png.png
 
 👤 Author
 Lavanya S B
