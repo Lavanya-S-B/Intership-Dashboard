@@ -35,6 +35,13 @@ Layer	Tools Used
 Frontend	HTML, CSS, JavaScript, Particles.js
 Backend	Firebase Realtime Database (static mock)
 Hosting	GitHub Pages
+📸 Screenshots
+
+🔹 Dashboard Page
+![Dashboard Screenshot](https://raw.githubusercontent.com/yourusername/intern-dashboard/main/assets/dashboard.png)
+ 🔹 Leaderboard Page
+![Leaderboard Screenshot](https://raw.githubusercontent.com/yourusername/intern-dashboard/main/assets/leaderboard.png)
+
 
 👤 Author
 Lavanya S B
