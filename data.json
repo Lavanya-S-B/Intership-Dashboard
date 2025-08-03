@@ -1,0 +1,74 @@
+{
+  "dashboard": {
+    "intern1": {
+      "name": "Lavanya",
+      "college": "ABC College of Engineering",
+      "department": "CSE",
+      "email": "lavanya@example.com",
+      "phone": "9876543210",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "referralCode": "lavanya2025",
+      "donations": 7200,
+      "tasksCompleted": 15,
+      "achievements": ["Top Performer Badge", "Certificate of Excellence"],
+      "rewards": ["Silver Badge", "Custom T-Shirt"]
+    },
+    "intern2": {
+      "name": "Ravi Kumar",
+      "college": "XYZ Institute of Technology",
+      "department": "IT",
+      "email": "ravi@example.com",
+      "phone": "9876512345",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "referralCode": "ravi2025",
+      "donations": 6800,
+      "tasksCompleted": 12,
+      "achievements": ["Consistent Contributor"],
+      "rewards": ["T-Shirt"]
+    },
+    "intern3": {
+      "name": "Meena Sharma",
+      "college": "GHI Women’s University",
+      "department": "ECE",
+      "email": "meena@example.com",
+      "phone": "9876523456",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "referralCode": "meena2025",
+      "donations": 6500,
+      "tasksCompleted": 14,
+      "achievements": ["Best Collaborator"],
+      "rewards": ["Certificate"]
+    },
+    "intern4": {
+      "name": "Arun Raj",
+      "college": "PQR Engineering College",
+      "department": "EEE",
+      "email": "arun@example.com",
+      "phone": "9876534567",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "referralCode": "arun2025",
+      "donations": 5900,
+      "tasksCompleted": 10,
+      "achievements": ["Early Starter"],
+      "rewards": []
+    },
+    "intern5": {
+      "name": "Sneha Iyer",
+      "college": "LMN University",
+      "department": "Mechanical",
+      "email": "sneha@example.com",
+      "phone": "9876545678",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "referralCode": "sneha2025",
+      "donations": 5300,
+      "tasksCompleted": 11,
+      "achievements": ["Team Spirit Award"],
+      "rewards": ["Silver Badge"]
+    }
+  }
+}

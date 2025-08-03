@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intern Leaderboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="center-container">
+    <div class="card">
+      <h2>🏆 Top Interns Leaderboard</h2>
+      <ol id="leaderboardList"></ol>
+      <a class="nav-button" href="dashboard.html">👤 Back to Dashboard</a>
+    </div>
+  </div>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyC4RKDqvAWol4DZvx-2BeZXp3zxlR5zjug",
+      authDomain: "interndashboard-c7d82.firebaseapp.com",
+      databaseURL: "https://interndashboard-c7d82-default-rtdb.firebaseio.com",
+      projectId: "interndashboard-c7d82",
+      storageBucket:  "interndashboard-c7d82.firebasestorage.app",
+      messagingSenderId: "816137504775",
+      appId: "1:816137504775:web:6ff0c1ee6b48bfa8b6c2a2"
+    };
+    firebase.initializeApp(firebaseConfig);
+    particlesJS.load('particles-js', 'particles.json');
+  </script>
+  <script src="leaderboard.js"></script>
+</body>
+</html>

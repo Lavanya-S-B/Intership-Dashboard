@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome | Intern Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+  <!-- Particle background -->
+  <div id="particles-js"></div>
+
+  <!-- Welcome content -->
+  <div class="center-container">
+    <div class="card welcome-card fade-in">
+      <h1>🎓 Welcome to Intern Portal</h1>
+      <p style="margin-top: 10px;">Track your progress, tasks, donations, and rewards in one place!</p>
+      <div class="button-group">
+        <a class="nav-button" href="dashboard.html">👤 Go to Dashboard</a>
+        <a class="nav-button" href="leaderboard.html">🏆 View Leaderboard</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load particle config -->
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.js loaded for welcome page.');
+    });
+  </script>
+
+</body>
+</html>

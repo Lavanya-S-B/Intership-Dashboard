@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intern Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Firebase + Particles.js -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <!-- Animated background -->
+  <div id="particles-js"></div>
+
+  <!-- Centered container -->
+  <div class="center-container">
+    <div class="card">
+      <h2 class="fade-in">🔍 Select Intern</h2>
+      <select id="internSelect" onchange="loadInternData(this.value)">
+        <option value="intern1">Lavanya</option>
+        <option value="intern2">Ravi Kumar</option>
+        <option value="intern3">Meena Sharma</option>
+        <option value="intern4">Arun Raj</option>
+        <option value="intern5">Sneha Iyer</option>
+      </select>
+
+      <img src="assets/intern.jpg" class="profile" />
+      <h2 class="fade-in">👩‍💻 <span id="internName">...</span></h2>
+      <p>🎓 College: <strong id="college"></strong></p>
+      <p>🧭 Department: <strong id="department"></strong></p>
+      <p>📧 Email: <strong id="email"></strong></p>
+      <p>📅 Internship: <strong id="startDate"></strong> to <strong id="endDate"></strong></p>
+      <p>📢 Referral Code: <strong id="referralCode"></strong></p>
+      <p>💸 Donations Raised: ₹<strong id="donations"></strong></p>
+      <p>📈 Tasks Completed: <strong id="tasksCompleted"></strong></p>
+
+      <h3>🏆 Achievements</h3>
+      <ul id="achievementsList"></ul>
+
+      <h3>🎁 Rewards</h3>
+      <ul id="rewardsList"></ul>
+
+      <!-- Navigation button to leaderboard -->
+      <a class="nav-button" href="leaderboard.html">🏆 View Leaderboard</a>
+    </div>
+  </div>
+
+  <!-- Firebase and animation init -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyC4RKDqvAWol4DZvx-2BeZXp3zxlR5zjug",
+      authDomain: "interndashboard-c7d82.firebaseapp.com",
+      databaseURL: "https://interndashboard-c7d82-default-rtdb.firebaseio.com",
+      projectId: "interndashboard-c7d82",
+      storageBucket:  "interndashboard-c7d82.firebasestorage.app",
+      messagingSenderId: "816137504775",
+      appId: "1:816137504775:web:6ff0c1ee6b48bfa8b6c2a2"
+    };
+    firebase.initializeApp(firebaseConfig);
+    particlesJS.load('particles-js', 'particles.json');
+    confetti({ particleCount: 70, spread: 80, origin: { y: 0.6 } });
+  </script>
+
+  <!-- Custom logic -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+/* General reset and font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Background particles layer */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Center the card container */
+.center-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+/* Main card for content */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 550px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 1s ease;
+}
+
+/* Intern profile image */
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Dropdown styling */
+select {
+  padding: 10px;
+  margin: 10px 0 20px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Navigation button */
+.nav-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.nav-button:hover {
+  background-color: #5145cd;
+  transform: scale(1.05);
+}
+
+/* List styles */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+ul li, ol li {
+  background: #e6f7ff;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* Leaderboard specific */
+ol#leaderboardList li {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Optional fade-ins */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease 1s forwards;
+}
+.fade-in:nth-child(1) { animation-delay: 0s; }
+.fade-in:nth-child(2) { animation-delay: 0.5s; }
+.fade-in:nth-child(3) { animation-delay: 1s; }
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
+}
+/* Welcome Card Styling */
+.welcome-card {
+  text-align: center;
+  animation: fadeInUp 1s ease;
+}
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease 1s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
